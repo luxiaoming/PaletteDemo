@@ -4,18 +4,22 @@ Palette 测试demo
 ![](http://upload-images.jianshu.io/upload_images/1603789-a715172c978d955b?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 Palette 让界面显示一致的利器
+
 Palette 主要功能便是取到一张图的色彩，然后返回一系列颜色，可供我们选择设置我们的文本颜色，背景颜色，从而达到界面的一致性。
 
 这篇文章有些坎坷，中途停电，丢失了内容，因此重新再敲一遍。
 
 主要提取出来的颜色值有如下几个选择：
+
 **Vibrant**(充满活力的)
 **Vibrant dark**(充满活力的黑)
 **Vibrant light**(充满活力的亮)
 **Muted**(柔和的)
 **Muted dark**(柔和的黑)
 **Muted light**(柔和的亮)
+
 下来我们实践中来看效果：
+
 1 在build.gradle添加
 
 ![](http://upload-images.jianshu.io/upload_images/1603789-6db1c46c087e280f?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
