@@ -50,6 +50,7 @@ Swatch的getTitleTextColor和getBodyTextColor颜色值基本一致，我们一�
 6 demo地址
 
 https://github.com/luxiaoming/PaletteDemo
+
 7 glide封装
 
 https://github.com/florent37/GlidePalette
