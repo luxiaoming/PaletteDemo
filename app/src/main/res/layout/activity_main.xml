@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:scaleType="centerInside"
+        android:layout_weight="1"
+        android:src="@drawable/demo"
+        android:background="@null" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:text="Vibrant"
+                android:id="@+id/Vibrant"
+                android:textColor="@android:color/white"
+                android:background="@android:color/black"
+                android:padding="20dip"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_margin="5dp"></TextView>
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:text="Vibrant dark"
+                android:id="@+id/Vibrantdark"
+                android:textColor="@android:color/white"
+                android:background="@android:color/black"
+                android:padding="20dip"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_margin="5dp"></TextView>
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:text="Vibrant light"
+                android:id="@+id/Vibrantlight"
+                android:textColor="@android:color/white"
+                android:background="@android:color/black"
+                android:padding="20dip"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_margin="5dp"></TextView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:text="Muted"
+                android:id="@+id/Muted"
+                android:textColor="@android:color/white"
+                android:background="@android:color/black"
+                android:padding="20dip"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_margin="5dp"></TextView>
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:text="Muted dark"
+                android:id="@+id/Muteddark"
+                android:textColor="@android:color/white"
+                android:background="@android:color/black"
+                android:padding="20dip"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_margin="5dp"></TextView>
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:text="Muted light"
+                android:id="@+id/Mutedlight"
+                android:textColor="@android:color/white"
+                android:background="@android:color/black"
+                android:padding="20dip"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_margin="5dp"></TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
